@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\mingyucu\Final project samples\VGA\vga_demo.ncd
+OUTFILE=C:\Users\mingyucu\Final project samples\VGA\vga_demo.bit
+FAMILY=Spartan6
+PART=xc6slx16-3csg324
+WORKINGDIR=C:\Users\mingyucu\Final project samples\VGA
+LICENSE=ISE
+USER_INFO=174127445_174127446_210706546_001
