@@ -1,0 +1,72 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Wed Nov 20 17:45:21 2019
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "Ca" LOCATE = SITE "T17" LEVEL 1;
+COMP "Cb" LOCATE = SITE "T18" LEVEL 1;
+COMP "Cc" LOCATE = SITE "U17" LEVEL 1;
+COMP "Cd" LOCATE = SITE "U18" LEVEL 1;
+COMP "Ce" LOCATE = SITE "M14" LEVEL 1;
+COMP "Cf" LOCATE = SITE "N14" LEVEL 1;
+COMP "Cg" LOCATE = SITE "L14" LEVEL 1;
+COMP "b0" LOCATE = SITE "R7" LEVEL 1;
+COMP "b1" LOCATE = SITE "T7" LEVEL 1;
+COMP "Dp" LOCATE = SITE "M13" LEVEL 1;
+COMP "g0" LOCATE = SITE "P8" LEVEL 1;
+COMP "g1" LOCATE = SITE "T6" LEVEL 1;
+COMP "g2" LOCATE = SITE "V6" LEVEL 1;
+COMP "r0" LOCATE = SITE "U7" LEVEL 1;
+COMP "r1" LOCATE = SITE "V7" LEVEL 1;
+COMP "r2" LOCATE = SITE "N7" LEVEL 1;
+COMP "hs" LOCATE = SITE "N6" LEVEL 1;
+COMP "vs" LOCATE = SITE "P7" LEVEL 1;
+COMP "An0" LOCATE = SITE "N16" LEVEL 1;
+COMP "An1" LOCATE = SITE "N15" LEVEL 1;
+COMP "An2" LOCATE = SITE "P18" LEVEL 1;
+COMP "An3" LOCATE = SITE "P17" LEVEL 1;
+COMP "clk" LOCATE = SITE "V10" LEVEL 1;
+COMP "btnC" LOCATE = SITE "B8" LEVEL 1;
+COMP "btnU" LOCATE = SITE "A8" LEVEL 1;
+COMP "Mt_St_oe_bar" LOCATE = SITE "L18" LEVEL 1;
+COMP "Mt_St_we_bar" LOCATE = SITE "M16" LEVEL 1;
+COMP "Mt_ce_bar" LOCATE = SITE "L15" LEVEL 1;
+COMP "St_ce_bar" LOCATE = SITE "L17" LEVEL 1;
+COMP "St_rp_bar" LOCATE = SITE "V3" LEVEL 1;
+TIMEGRP sys_clk_pin = BEL "_i000001/state_FSM_FFd1" BEL
+        "_i000001/state_FSM_FFd2" BEL "_i000001/state_FSM_FFd3" BEL
+        "_i000001/state_FSM_FFd4" BEL "_i000001/state_FSM_FFd5" BEL
+        "_i000001/state_FSM_FFd6" BEL "_i000001/MCEN_count_3" BEL
+        "_i000001/MCEN_count_2" BEL "_i000001/MCEN_count_1" BEL
+        "_i000001/MCEN_count_0" BEL "_i000001/debounce_count_4" BEL
+        "_i000001/debounce_count_3" BEL "_i000001/debounce_count_2" BEL
+        "_i000001/debounce_count_1" BEL "_i000001/debounce_count_0" BEL
+        "dc/pulse" BEL "vbc/score_15" BEL "vbc/score_14" BEL "vbc/score_13"
+        BEL "vbc/score_12" BEL "vbc/score_11" BEL "vbc/score_10" BEL
+        "vbc/score_9" BEL "vbc/score_8" BEL "vbc/score_7" BEL "vbc/score_6"
+        BEL "vbc/score_5" BEL "vbc/score_4" BEL "vbc/score_3" BEL
+        "vbc/score_2" BEL "vbc/score_1" BEL "vbc/score_0" BEL "cv/refresh_20"
+        BEL "cv/refresh_19" BEL "cv/refresh_18" BEL "cv/refresh_17" BEL
+        "cv/refresh_16" BEL "cv/refresh_15" BEL "cv/refresh_14" BEL
+        "cv/refresh_13" BEL "cv/refresh_12" BEL "cv/refresh_11" BEL
+        "cv/refresh_10" BEL "cv/refresh_9" BEL "cv/refresh_8" BEL
+        "cv/refresh_7" BEL "cv/refresh_6" BEL "cv/refresh_5" BEL
+        "vbc/greenMiddleSquareY_8" BEL "vbc/greenMiddleSquareY_6" BEL
+        "vbc/greenMiddleSquareY_9" BEL "vbc/greenMiddleSquareY_7" BEL
+        "vbc/greenMiddleSquareY_5" BEL "vbc/greenMiddleSquareY_4" BEL
+        "vbc/greenMiddleSquareY_3" BEL "vbc/greenMiddleSquareY_2" BEL
+        "vbc/greenMiddleSquareY_1" BEL "vbc/greenMiddleSquareY_0" BEL
+        "vbc/reset" BEL "vbc/greenMiddleSquareSpeed_18" BEL
+        "vbc/greenMiddleSquareSpeed_17" BEL "vbc/greenMiddleSquareSpeed_16"
+        BEL "vbc/greenMiddleSquareSpeed_15" BEL
+        "vbc/greenMiddleSquareSpeed_14" BEL "vbc/greenMiddleSquareSpeed_13"
+        BEL "vbc/greenMiddleSquareSpeed_12" BEL
+        "vbc/greenMiddleSquareSpeed_11" BEL "vbc/greenMiddleSquareSpeed_10"
+        BEL "vbc/greenMiddleSquareSpeed_9" BEL "vbc/greenMiddleSquareSpeed_8"
+        BEL "vbc/greenMiddleSquareSpeed_7" BEL "vbc/greenMiddleSquareSpeed_6"
+        BEL "vbc/greenMiddleSquareSpeed_5" BEL "vbc/greenMiddleSquareSpeed_4"
+        BEL "vbc/greenMiddleSquareSpeed_3" BEL "vbc/greenMiddleSquareSpeed_2"
+        BEL "vbc/greenMiddleSquareSpeed_1" BEL "clk_BUFGP/BUFG";
+TS_sys_clk_pin = PERIOD TIMEGRP "sys_clk_pin" 100 MHz HIGH 50%;
+SCHEMATIC END;
+

@@ -1,0 +1,5 @@
+verilog work "vgaBitChange.v"
+verilog work "ee201_debounce_DPB_SCEN_CCEN_MCEN.v"
+verilog work "DisplayController.v"
+verilog work "counterVerilog.v"
+verilog work "allModulesMain.v"

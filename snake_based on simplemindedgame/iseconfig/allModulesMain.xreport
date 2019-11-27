@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2019-11-26T15:28:35</DateModified>
+  <DateModified>2019-11-26T15:35:02</DateModified>
   <ModuleName>allModulesMain</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
-  <SavedFilePath>C:/Users/mingyucu/Final project samples/vga_simplemindedgame/iseconfig/allModulesMain.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>C:/Users/mingyucu/Final project samples/vga_simplemindedgame\</ImplementationReportsDirectory>
+  <SavedFilePath>C:/Users/mingyucu/Final project samples/snake_based on simplemindedgame/iseconfig/allModulesMain.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>C:/Users/mingyucu/Final project samples/snake_based on simplemindedgame\</ImplementationReportsDirectory>
   <DateInitialized>2019-11-10T21:13:51</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>
